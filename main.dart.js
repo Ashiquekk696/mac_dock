@@ -45199,11 +45199,9 @@ n=p.h("aI<ak.T>")
 o.a_(new A.TB(m))
 m.e=new A.aI(o,new A.am(l,0,p),n)
 l=b.a
-if(l>150)l/=2
-else if(l>100)l=-l/2
+if(l>100)l/=4
 else if(l>50)l=-l/2
-else if(l<50)l=-l*5
-else l=l<1?l*10:0
+else if(!(l<1))l=l<50?-l*5:0
 o=m.r
 o.a_(new A.TC(m))
 m.f=new A.aI(o,new A.am(l,0,p),n)
